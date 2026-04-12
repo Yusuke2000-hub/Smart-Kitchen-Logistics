@@ -16,7 +16,7 @@ public class Application {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "一貫入魂！Spring Boot始めました！";
+		return "一貫入魂！Spring Boot動いています！";
 	}
 }
 
