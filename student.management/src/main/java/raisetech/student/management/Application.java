@@ -16,6 +16,7 @@ public class Application {
 
 	@GetMapping("/hello")
 	public String hello() {
+		//Git課題16：バージョン管理を学習しました
 		return "一貫入魂！Spring Boot動いています！";
 	}
 }
